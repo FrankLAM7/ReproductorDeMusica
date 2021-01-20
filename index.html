@@ -6,13 +6,30 @@
     <base href="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
-
+    <!-- <script src=" https://cdns-files.dzcdn.net/js/min/dz.js "></script> -->
+    <script src="https://cdns-files.dzcdn.net/js/min/dz.js"></script>
     <script
       src="https://kit.fontawesome.com/7ae06daab5.js"
       crossorigin="anonymous"
     ></script>
   <link rel="stylesheet" href="styles.3ff695c00d717f2d2a11.css"></head>
   <body>
+    <div id="dz-root"></div>
+    <script>
+      window.dzAsyncInit = function () {
+        DZ.init({
+          appId: " 458342 ",
+          channelUrl:
+            "http://franklam7.github.io/ReproductorDeMusica/#/principal",
+        });
+      };
+      (function () {
+        var e = document.createElement("script");
+        e.src = "https://cdns-files.dzcdn.net/js/min/dz.js";
+        e.async = true;
+        document.getElementById("dz-root").appendChild(e);
+      })();
+    </script>
     <app-root></app-root>
-  <script src="runtime-es2015.cdfb0ddb511f65fdc0a0.js" type="module"></script><script src="runtime-es5.cdfb0ddb511f65fdc0a0.js" nomodule defer></script><script src="polyfills-es5.0290b245fbcca09184ac.js" nomodule defer></script><script src="polyfills-es2015.ffa9bb4e015925544f91.js" type="module"></script><script src="main-es2015.b09db7384adc281f6aed.js" type="module"></script><script src="main-es5.b09db7384adc281f6aed.js" nomodule defer></script></body>
+  <script src="runtime-es2015.cdfb0ddb511f65fdc0a0.js" type="module"></script><script src="runtime-es5.cdfb0ddb511f65fdc0a0.js" nomodule defer></script><script src="polyfills-es5.0290b245fbcca09184ac.js" nomodule defer></script><script src="polyfills-es2015.ffa9bb4e015925544f91.js" type="module"></script><script src="main-es2015.3ba6f7c1ea61dd75998c.js" type="module"></script><script src="main-es5.3ba6f7c1ea61dd75998c.js" nomodule defer></script></body>
 </html>
